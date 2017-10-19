@@ -13,9 +13,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress -p", // --progress option to show the percent progress and the -p option to minimize the code for production
+    "build": "webpack --progress -p",
     "watch": "webpack --progress --watch",
-    "server": "webpack-dev-server --open" // live reloading Webpack dev server
+    "server": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
@@ -27,19 +27,21 @@
   }
 }
 ```
-# Build command
+## Build command
 ```npm run build```
-# Watch
+```"build": "webpack --progress -p" --progress``` option to show the percent progress and the -p option to minimize the code for production
+## Watch
 ```npm run watch```
-# Live reloading Webpack Dev server
+## Live reloading Webpack Dev server
 ```npm run server```
+```"server": "webpack-dev-server --open"```  live reloading Webpack dev server
 
-# Webpack Dev server for live reloading
+## Webpack Dev server for live reloading
     Install:
 ```npm install webpack-dev-server --save-dev ```
 
 
-# Webpack Configuration
+## Webpack Configuration
 ```
 // webpack.config.js
 module.exports = {
@@ -50,7 +52,7 @@ module.exports = {
 };
 ```
 
-# Webpack Bundleing command (CLI)
+## Webpack Bundleing command (CLI)
 ```./node_modules/.bin/webpack```
 
 - Install babel
