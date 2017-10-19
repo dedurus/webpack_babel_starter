@@ -1,9 +1,9 @@
-- Initialize NPM
-    Command
+#### Initialize NPM
+- Command
 ```npm init```
 
-- Install Webpack
-    Command
+#### Install Webpack
+- Command
 ```npm install webpack --save-dev```
 ```json
 {
@@ -20,28 +20,32 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    // DEPENDENCIES HERE
+
   },
   "devDependencies": {
     "webpack": "^3.7.1"
   }
 }
 ```
-## Build command
+    Build command
 ```npm run build```
+
 ```"build": "webpack --progress -p" --progress``` option to show the percent progress and the -p option to minimize the code for production
-## Watch
+
+    Watch
 ```npm run watch```
-## Live reloading Webpack Dev server
+
+    Live reloading Webpack Dev server
 ```npm run server```
+
 ```"server": "webpack-dev-server --open"```  live reloading Webpack dev server
 
-## Webpack Dev server for live reloading
-    Install:
+    Webpack Dev server for live reloading
+        Install:
 ```npm install webpack-dev-server --save-dev ```
 
 
-## Webpack Configuration
+    Webpack Configuration
 ```
 // webpack.config.js
 module.exports = {
@@ -52,12 +56,13 @@ module.exports = {
 };
 ```
 
-## Webpack Bundleing command (CLI)
+    Webpack Bundleing command (CLI)
 ```./node_modules/.bin/webpack```
 
-- Install babel
-    Command
+#### Install babel
+- Command
 ```npm install babel-core babel-preset-env babel-loader --save-dev```
+
     Webpack configuration
 ```
 // webpack.config.js
