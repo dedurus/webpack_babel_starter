@@ -1,7 +1,7 @@
 {
   "name": "webpack_babel",
   "version": "1.0.0",
-  "description": "Webpack/Babel Test",
+  "description": "Webpack and Babel Starter Pack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,8 @@
     "watch": "webpack --progress --watch",
     "server": "webpack-dev-server --open"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "dedurus",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
